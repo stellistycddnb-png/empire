@@ -1,0 +1,10 @@
+{
+  "appId": "com.empireofages.game",
+  "appName": "Империя Эпох",
+  "webDir": "www",
+  "backgroundColor": "#14110f",
+  "android": {
+    "backgroundColor": "#14110f",
+    "allowMixedContent": false
+  }
+}

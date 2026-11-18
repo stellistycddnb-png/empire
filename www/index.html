@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#14110f">
+  <title>Империя Эпох</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-era="0">
+  <div id="app">
+    <header id="top">
+      <div class="era-row"><span id="eraName"></span><span id="buff" class="buff hidden"></span></div>
+      <div id="resbar"></div>
+    </header>
+    <main id="views">
+      <section class="view" id="v-home"></section>
+      <section class="view" id="v-army"></section>
+      <section class="view" id="v-map"></section>
+      <section class="view" id="v-sci"></section>
+      <section class="view" id="v-more"></section>
+    </main>
+    <nav id="tabs"></nav>
+  </div>
+  <div id="toasts"></div>
+  <div id="modal" class="hidden"><div class="sheet" id="sheet"></div></div>
+
+  <script src="data.js"></script>
+  <script src="logic.js"></script>
+  <script src="ui.js"></script>
+</body>
+</html>
